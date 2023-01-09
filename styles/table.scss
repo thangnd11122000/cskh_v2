@@ -1,0 +1,103 @@
+.order-table {
+  .ant-table-thead {
+    .ant-table-cell {
+      text-align: center;
+    }
+  }
+}
+
+.refund-rate-table {
+  table {
+    font-size: 14px;
+    thead {
+      tr:nth-child(1) {
+        th {
+          &:nth-child(1),
+          &:nth-child(2) {
+            background: #c27ba0;
+          }
+          &:nth-child(3) {
+            background: #8e7cc3;
+          }
+          &:nth-child(4) {
+            background: #6d9eeb;
+          }
+          &:nth-child(5),
+          &:nth-child(7) {
+            background: #ffff00;
+          }
+          &:nth-child(6) {
+            background: #76a5af;
+          }
+          &:nth-child(8) {
+            background: #ffd966;
+          }
+          &:nth-child(9) {
+            background: #f6b26b;
+          }
+          &:nth-child(10),
+          &:nth-child(11) {
+            background: #ea9999;
+          }
+          &:nth-child(12) {
+            background: #9678d2;
+          }
+        }
+      }
+      tr:nth-child(2) {
+        th {
+          background: rgb(20, 20, 20);
+          color: #fff;
+        }
+      }
+    }
+    tbody {
+      tr.ant-table-row-level-0 {
+        background: rgb(254, 254, 75);
+        &:hover > td {
+          background: yellow;
+        }
+        .ant-table-cell-fix-left {
+          background: rgb(254, 254, 75);
+        }
+      }
+    }
+  }
+}
+
+.cskh-user-table {
+  .ant-table-content {
+    overflow: hidden;
+  }
+  .ant-table-thead {
+    .ant-table-cell {
+      font-weight: bold;
+      font-size: 12px !important;
+    }
+  }
+  .ant-table-tbody tr td:last-child {
+    padding: 8px 20px 8px 8px !important;
+  }
+  .ant-table-tbody tr:last-child td {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .cskh-user-table .ant-table-cell {
+    padding: 8px 8px;
+  }
+  .cskh-user-table .ant-table-thead {
+    .ant-table-cell {
+      font-size: 11px !important;
+    }
+  }
+}
+
+// CSKH
+@media only screen and (max-width: 1440px) {
+  .dashboard-postals-table .ant-table-cell {
+    padding: 8px 8px;
+  }
+}

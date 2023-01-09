@@ -1,0 +1,42 @@
+$primary: #1877f2;
+
+$text: #050505;
+$text-primary: #1890ff;
+$text-secondary: #65676b;
+
+$button-bg-primary: #e7f3ff;
+$button-bg-primary-hover: #dae7f2;
+$button-bg-secondary: #e4e6eb;
+$button-bg-secondary-hover: #d7dade;
+$button-radius: 18px;
+
+$input-bg: #f0f2f5;
+
+$border: 1px solid #ced0d4;
+$border-color: #ced0d4;
+$border-radius: 18px;
+
+$message-bg-dark: #373e4c;
+$disabled: #ddd;
+
+.text {
+  &--primary {
+    color: $primary;
+  }
+
+  &--success {
+    color: #52c41a;
+  }
+
+  &--warning {
+    color: #faad14;
+  }
+
+  &--danger {
+    color: #ff4d4f;
+  }
+
+  &--small {
+    font-size: 12px;
+  }
+}

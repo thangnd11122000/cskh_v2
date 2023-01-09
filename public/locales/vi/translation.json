@@ -1,0 +1,57 @@
+{
+    "common": {
+        "tab_title": "TẠO ĐƠN",
+        "yes": "Có",
+        "no": "Không",
+        "logout": "Đăng xuất",
+        "called": "Đã gọi",
+        "not_call": "Chưa gọi",
+        "order_info": "Thông tin đơn hàng",
+        "product_name": "Tên sản phẩm",
+        "weight": "KL(g)",
+        "quantity": "SL",
+        "unit_price": "Giá(đ)",
+        "amount": "Thành tiền",
+        "total_amount": "Tổng tiền chi tiêu của khách",
+        "total_weight": "Tổng khối lượng",
+        "created_at": "Tạo lúc",
+        "choose_page": "Chọn nguồn đơn",
+        "save_temp": "Lưu thành đơn nháp",
+        "confirm_customer": "Xác nhận với khách hàng",
+        "shipping_price": "Phí vận chuyển",
+        "discount": "Giảm giá",
+        "foreign": "Ngoại tệ"
+    },
+    "form": {
+        "field": {
+            "customer_name": "Tên khách hàng",
+            "phone_number": "Số điện thoại",
+            "note": "Viết ghi chú",
+            "note_shipping": "Viết ghi chú vận chuyển",
+            "choose_product": "Chọn sản phẩm"
+        },
+        "button": {
+            "add_product": "Thêm sản phẩm",
+            "create_order": "Tạo đơn",
+            "create_order_temp": "Tạo đơn nháp"
+        },
+        "error": {
+            "customer_name": "Nhập tên khách hàng!",
+            "phone_number": "Nhập số điện thoại!",
+            "link": "Nhập link facebook!",
+            "link_invalid": "Link facebook không chính xác!"
+        }
+    },
+    "notification": {
+        "success": {
+            "create_order": "Tạo đơn thành công",
+            "create_order_temp": "Tạo đơn nháp thành công"
+        },
+        "error": {
+            "create_order": "Tạo đơn thất bại",
+            "create_order_temp": "Tạo đơn nháp thất bại",
+            "add_product": "Thêm sản phẩm",
+            "not_called": "Chưa gọi xác nhận"
+        }
+    }
+}

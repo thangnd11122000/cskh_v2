@@ -1,0 +1,57 @@
+{
+    "common": {
+        "tab_title": "CREATE ORDER",
+        "yes": "Yes",
+        "no": "No",
+        "logout": "Logout",
+        "called": "Called",
+        "not_call": "Not call",
+        "order_info": "Order information",
+        "product_name": "Product name",
+        "weight": "W(g)",
+        "quantity": "Qty",
+        "unit_price": "Price(đ)",
+        "amount": "Amount",
+        "total_amount": "Total spending of customers",
+        "total_weight": "Total weight",
+        "created_at": "Created at",
+        "choose_page": "Choose page",
+        "save_temp": "Save as order temp",
+        "confirm_customer": "Confirm with the customer",
+        "shipping_price": "Shipping price",
+        "discount": "Discount",
+        "foreign": "Foreign"
+    },
+    "form": {
+        "field": {
+            "customer_name": "Customer name",
+            "phone_number": "Phone number",
+            "note": "Write notes",
+            "note_shipping": "Write notes for shipping",
+            "choose_product": "Choose product"
+        },
+        "button": {
+            "add_product": "Add product",
+            "create_order": "Create order",
+            "create_order_temp": "Create order temp"
+        },
+        "error": {
+            "customer_name": "Enter customer name!",
+            "phone_number": "Enter phone number!",
+            "link": "Enter link facebook!",
+            "link_invalid": "Invalid link facebook!"
+        }
+    },
+    "notification": {
+        "success": {
+            "create_order": "Order created successfully",
+            "create_order_temp": "Order temp created successfully"
+        },
+        "error": {
+            "create_order": "Order created failed",
+            "create_order_temp": "Order temp created failed",
+            "add_product": "Add product",
+            "not_called": "Haven't called to confirm order yet"
+        }
+    }
+}
